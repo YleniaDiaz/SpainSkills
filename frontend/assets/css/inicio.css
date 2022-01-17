@@ -1,0 +1,71 @@
+/* Diseño para celulares */
+@media screen and (max-width: 480px) {
+	
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 769px) {
+	#contenedor{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+body{
+	margin: 0 auto; 
+    background-color: #D8D8D8;
+}
+
+#principal, #pie, header, footer, nav {
+	border: 1px solid grey;
+}
+
+header{
+	background: white url("../imagenes/logogameskills.png") left center no-repeat;
+	text-align: center;
+	height: 120px;
+}
+
+nav {
+	width: 100%;
+	clear:both;
+	height: 40px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px; 
+	margin: 0px;
+}
+
+nav ul li{
+	float: left;
+	border: 1px solid gray;
+	margin-right: 10px;
+	padding: 5px;
+	background: lightblue;
+	border-radius: 20px 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+nav ul li:hover{
+	background: blue;
+}
+
+#principal{
+	text-align: center;
+}
+
+
+
+

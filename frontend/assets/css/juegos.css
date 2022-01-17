@@ -1,0 +1,121 @@
+/* Diseño para celulares */
+@media screen and (max-width: 480px) {
+	#izquierdo, #principal {
+		float:none;
+		width:100%;
+	}
+	header{
+		background-size: 50px 50px;
+	}
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 481px) and (max-width: 768px){
+	#izquierdo{
+		float: left;
+		width: 30%;
+	}
+	#principal{
+		float: left;
+		width: 68%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 769px) {
+	#contenedor{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	#izquierdo{
+		float:left;
+		width:20%;
+	}
+	#principal{
+		float:right;
+		width:79%;
+	}
+}
+
+body{
+	margin: 0 auto; 
+    background-color: #D8D8D8;
+}
+
+.clear{
+	clear: both;
+}
+
+#principal{
+	text-align: center;
+}
+
+#izquierdo, #principal, #derecho, #pie, header, footer, nav {
+	border: 1px solid grey;
+}
+
+header{
+	background: white url("../imagenes/logogameskills.png") left center no-repeat;
+	text-align: center;
+	height: 120px;
+}
+
+/*MENU HORIZONTAL*/
+nav {
+	width: 100%;
+	/*height: 40px;*/
+	padding-top: 10px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px; 
+	margin: 0px;
+}
+
+nav ul li{
+	float: left;
+	border: 1px solid gray;
+	margin-right: 10px;
+	padding: 5px;
+	background: lightblue;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+nav ul li:hover{
+	background: blue;
+}
+
+/*MENU VERTICAL*/
+#izquierdo {
+
+}
+
+#izquierdo ul{
+	list-style: none;
+	padding: 0px; 
+	margin: 0px;
+}
+
+#izquierdo ul li{
+	border: 1px solid gray;
+	padding: 5px;
+	background: lightblue;
+	margin-bottom: 5px;
+}
+
+#izquierdo ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	text-align: center;
+}
+
+#izquierdo ul li:hover{
+	background: blue;
+}

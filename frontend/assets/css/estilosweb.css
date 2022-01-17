@@ -1,0 +1,107 @@
+/* -Estilos Generales- */            
+            body{
+                background-color: #D8D8D8
+            }
+            a:link, a:visited, a:active {
+                text-decoration:none;
+            }
+            #titulo2, #titulo3 {
+                text-align: center;
+               margin-left: -1px;
+                width: 100.1%;
+                background-color: #72285B; 
+                color: white;
+            }
+/*----------------------------------------------------*/
+
+/* -Estilos de la Página Principal- */
+            #contenedorA{
+                background-color: #72285B;
+                border: solid 2px #72285B;
+                width: 950px;
+                margin: auto;
+            }
+            #cabeceraA{
+                background-image: url('');
+                background-size: 60% 120%;
+                padding-bottom: 1em;
+                padding-top: 1em;
+                background-position-x: center;
+                background-position-y: center;
+                background-repeat: no-repeat;
+                background-color: white;
+            }
+            #menuHorizontalA li{
+                float:left;
+                width:15%;
+                padding:5px 10px;
+                padding-bottom: 5px;
+                background-color:#72285B;
+                text-align:center;
+                color: transparent;
+                margin-top: -1em;
+                margin-left: 1em;
+            }
+            #menuHorizontalA li a{
+                text-decoration: none;
+                color: white;
+                border: solid 1px white;
+                border-radius: 7px 7px 0px 0px;
+                padding-top: .2em;
+                padding-bottom: .2em;
+                padding-left: .4em;
+                padding-right: .4em;
+            }
+            #menuA{
+                width:20%;
+                background-color: #72285B;
+                float: left;
+                height: 370px;
+                text-align: center;
+            }
+            #menuA li{
+               font-family: monospace; 
+               width: 100%
+               margin-top: 10px;
+               border: solid 1px white;
+               border-radius: 5px 0px 0px 5px;
+               color: transparent;
+               text-align: center;
+                margin-left: -3em;
+                padding-top: 30px;
+                padding-bottom: 30px;
+             }
+             #menuA ul li a {
+                color: white;
+                background-color: transparent;
+             }
+            ul :hover{
+                background-color: #F7A9FB;
+                transition-duration: 1.5s;
+            }
+             #menuA ul li a :hover{
+                color: black;
+                transition-duration: 1.5s;
+            }
+            #contenidoA{
+                width:80%;
+                background-color: white;
+                float: right;
+                text-align: center;
+
+            }
+            #ContenidoA p{
+                text-align: center;
+            }
+            #pieA{
+                clear: both;
+                width:100%;
+                background-color: #72285B;
+                color: white;
+                text-align: center;
+            }
+            #imagenA{
+                text-align: center;
+            } 
+/*---------------------------------------------------*/
+
